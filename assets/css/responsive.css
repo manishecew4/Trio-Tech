@@ -1,18 +1,22 @@
 /* For Mobile */
+
 @media only screen and (max-width: 767px) {
-    .bnr_right_img{
-      display: none;
-    }
+  .bnr_right_img {
+    display: none;
   }
+  .bannerHeader {
+    font-size: 10vw;
+    font-weight: 700;
+  }
+}
 
 /* For PC */
+
 @media only screen and (min-width: 767px) {
-    .bannerHeader {
-        /* font-size: 3rem; */
-        /* font-weight: 700; */
-        color: #6e6e6e;
-    }
-    .bnr_right_img{
-      display: flex;
-    }
+  .bannerHeader {
+    color: #6e6e6e;
   }
+  .bnr_right_img {
+    display: flex;
+  }
+}

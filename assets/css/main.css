@@ -275,7 +275,8 @@ header {
     .nav__menu li a {
         font-size: 1rem;
         color: #222;
-        text-decoration: none
+        text-decoration: none;
+        font-weight: 600;
     }
     .nav__menu li a:hover {
         color: #0062a3

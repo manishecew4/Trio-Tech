@@ -10,7 +10,10 @@
 
 :root {
     --yellow: #FFC300;
+    --yellow_lite: #e9c46a;
     --salmon: #FA8072;
+    --green: #2a9d8f;
+    --sandy_brown: #f4a261;
 }
 
 html, body {
@@ -24,8 +27,8 @@ html, body {
 }
 
 .btn_theme {
-    background-color: var(--yellow);
-    color: #000;
+    background-color: var(--sandy_brown);
+    color: #fff;
 }
 
 .btn_theme:hover {
@@ -155,7 +158,7 @@ header {
 .bgovrlay {
     display: flex;
     height: -webkit-fill-available;
-    background: #ECF0F1;
+    background: var(--yellow_lite);
     max-height: 40%;
 }
 
@@ -167,6 +170,9 @@ header {
     user-select: none;
     animation: blink 1s steps(2, start) infinite;
 }
+.z2{
+    z-index: 2 ;
+}
 
 @keyframes blink {
     to {
@@ -175,7 +181,7 @@ header {
 }
 
 .bannerHeader {
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .custom_card:hover {
